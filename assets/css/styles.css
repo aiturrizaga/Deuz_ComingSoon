@@ -1,0 +1,236 @@
+.my-body {
+  /* Aquí el origen de la imagen */
+  background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_LARGE.png");
+
+  /* Fijar la imagen de fondo este vertical y horizontalmente y centrado */
+  background-position: center center;
+
+  /* Esta imagen no debe de repetirse */
+  background-repeat: no-repeat;
+
+  /* COn esta regla fijamos la imagen en la pantalla. */
+  background-attachment: fixed;
+
+  /* La imagen ocupa el 100% y se reescala */
+  background-size: 100% 100%;
+
+  /* Damos un color de fondo mientras la imagen está cargando  */
+  background-color: #490090;
+}
+
+.flex-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.main-content {
+  position: absolute;
+  top: 48%;
+  left: 78%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -28%;
+}
+
+.main-content .img-deuz-logo {
+  width: 22rem;
+  height: 14rem;
+}
+
+.body-content__whatsapp {
+  position: absolute;
+  top: 10rem;
+  left: 10%;
+}
+
+.body-content__whatsapp .img-text-whatsapp {
+  width: 13rem;
+  height: 8.6rem;
+}
+
+.body-content__facebook {
+  position: absolute;
+  top: 16rem;
+  left: 10%;
+}
+
+.body-content__facebook .img-text-facebook {
+  width: 13rem;
+  height: 8.6rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .my-body {
+    background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_SMALL.png");
+  }
+  .main-content {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -28%;
+  }
+  .main-content .img-deuz-logo {
+    width: 14rem;
+    height: 10rem;
+  }
+  .body-content__whatsapp {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+  }
+  .body-content__whatsapp .img-text-whatsapp {
+    width: 10rem;
+    height: 8rem;
+  }
+  .body-content__facebook {
+    position: absolute;
+    top: 93%;
+    left: 22%;
+  }
+  .body-content__facebook .img-text-facebook {
+    width: 10rem;
+    height: 8rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .my-body {
+    background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_SMALL.png");
+  }
+  .main-content {
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -28%;
+  }
+  .main-content .img-deuz-logo {
+    width: 14rem;
+    height: 10rem;
+  }
+  .body-content__whatsapp {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+  }
+  .body-content__whatsapp .img-text-whatsapp {
+    width: 10rem;
+    height: 8rem;
+  }
+  .body-content__facebook {
+    position: absolute;
+    top: 93%;
+    left: 22%;
+  }
+  .body-content__facebook .img-text-facebook {
+    width: 10rem;
+    height: 8rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .my-body {
+    background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_MEDIUM.png");
+  }
+  .main-content {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -28%;
+  }
+  .main-content .img-deuz-logo {
+    width: 14rem;
+    height: 10rem;
+  }
+  .body-content__whatsapp {
+    position: absolute;
+    top: 55%;
+    left: 22%;
+  }
+  .body-content__whatsapp .img-text-whatsapp {
+    width: 10rem;
+    height: 8rem;
+  }
+  .body-content__facebook {
+    position: absolute;
+    top: 93%;
+    left: 22%;
+  }
+  .body-content__facebook .img-text-facebook {
+    width: 10rem;
+    height: 8rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .my-body {
+    background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_LARGE.png");
+  }
+  .main-content {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -28%;
+  }
+  .main-content .img-deuz-logo {
+    width: 20rem;
+    height: 13rem;
+  }
+  .body-content__whatsapp {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+  }
+  .body-content__whatsapp .img-text-whatsapp {
+    width: 12rem;
+    height: 8.5rem;
+  }
+  .body-content__facebook {
+    position: absolute;
+    top: 98%;
+    left: 10%;
+  }
+  .body-content__facebook .img-text-facebook {
+    width: 12rem;
+    height: 8.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .my-body {
+    background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_LARGE.png");
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .my-body {
+        background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_SMALL.png");
+  }
+}
+
+@media screen and (min-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .my-body {
+        background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_SMALL.png");
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  .my-body {
+        background-image: url("../images/banners/BACKGROUND-WEB-OFICIAL_SMALL.png");
+  }
+}
