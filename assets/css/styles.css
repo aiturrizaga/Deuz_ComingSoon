@@ -40,26 +40,15 @@
   height: 14rem;
 }
 
-.body-content__whatsapp {
+.body-content__text {
   position: absolute;
-  top: 10rem;
-  left: 10%;
+  top: 11rem;
+  left: 0%;
 }
 
-.body-content__whatsapp .img-text-whatsapp {
-  width: 13rem;
-  height: 8.6rem;
-}
-
-.body-content__facebook {
-  position: absolute;
-  top: 16rem;
-  left: 10%;
-}
-
-.body-content__facebook .img-text-facebook {
-  width: 13rem;
-  height: 8.6rem;
+.body-content__text .img-text {
+  width: 35rem;
+  height: 10rem;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -70,7 +59,7 @@
   .main-content {
     position: absolute;
     top: 30%;
-    left: 65%;
+    left: 64%;
     height: 30%;
     width: 50%;
     margin: -15% 0 0 -28%;
@@ -79,23 +68,14 @@
     width: 14rem;
     height: 10rem;
   }
-  .body-content__whatsapp {
+  .body-content__text {
     position: absolute;
-    top: 55%;
-    left: 22%;
+    top: 11.3rem;
+    left: 0%;
   }
-  .body-content__whatsapp .img-text-whatsapp {
-    width: 10rem;
-    height: 8rem;
-  }
-  .body-content__facebook {
-    position: absolute;
-    top: 93%;
-    left: 22%;
-  }
-  .body-content__facebook .img-text-facebook {
-    width: 10rem;
-    height: 8rem;
+  .body-content__text .img-text {
+    width: 14.3rem;
+    height: 5rem;
   }
 }
 
@@ -106,8 +86,8 @@
   }
   .main-content {
     position: absolute;
-    top: 30%;
-    left: 68%;
+    top: 35%;
+    left: 72%;
     height: 30%;
     width: 50%;
     margin: -15% 0 0 -28%;
@@ -116,23 +96,14 @@
     width: 14rem;
     height: 10rem;
   }
-  .body-content__whatsapp {
+  .body-content__text {
     position: absolute;
-    top: 55%;
-    left: 22%;
+    top: 8rem;
+    left: 5%;
   }
-  .body-content__whatsapp .img-text-whatsapp {
-    width: 10rem;
-    height: 8rem;
-  }
-  .body-content__facebook {
-    position: absolute;
-    top: 93%;
-    left: 22%;
-  }
-  .body-content__facebook .img-text-facebook {
-    width: 10rem;
-    height: 8rem;
+  .body-content__text .img-text {
+    width: 19rem;
+    height: 6rem;
   }
 }
 
@@ -150,25 +121,16 @@
     margin: -15% 0 0 -28%;
   }
   .main-content .img-deuz-logo {
-    width: 14rem;
-    height: 10rem;
+    width: 18rem;
+    height: 14rem;
   }
-  .body-content__whatsapp {
+  .body-content__text {
     position: absolute;
-    top: 55%;
-    left: 22%;
+    top: 10rem;
+    left: 0%;
   }
-  .body-content__whatsapp .img-text-whatsapp {
-    width: 10rem;
-    height: 8rem;
-  }
-  .body-content__facebook {
-    position: absolute;
-    top: 93%;
-    left: 22%;
-  }
-  .body-content__facebook .img-text-facebook {
-    width: 10rem;
+  .body-content__text .img-text {
+    width: 30rem;
     height: 8rem;
   }
 }
@@ -190,23 +152,14 @@
     width: 20rem;
     height: 13rem;
   }
-  .body-content__whatsapp {
+  .body-content__text {
     position: absolute;
-    top: 60%;
-    left: 10%;
+    top: 10rem;
+    left: 0%;
   }
-  .body-content__whatsapp .img-text-whatsapp {
-    width: 12rem;
-    height: 8.5rem;
-  }
-  .body-content__facebook {
-    position: absolute;
-    top: 98%;
-    left: 10%;
-  }
-  .body-content__facebook .img-text-facebook {
-    width: 12rem;
-    height: 8.5rem;
+  .body-content__text .img-text {
+    width: 35rem;
+    height: 10rem;
   }
 }
 
